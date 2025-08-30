@@ -9,3 +9,12 @@ jobs:
     steps: 
     - id: s00
       run: echo "current time in sg is "
+
+    - id: s01
+      uses: mscoutermarsh/cowsays-action@master
+      with:
+        text: 'ship ship ship!'
+        color: 'red'
+
+    # - id: s01
+    #   run: ls -l
